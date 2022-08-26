@@ -14,9 +14,10 @@
             <button class="begin-button" onclick="start()">Begin Quiz</button>
             <div id="quiz-rules">
                 <ul id="rules-list">
-                    <li>This quiz is timed you will have 50 seconds to complete the questions</li>
-                    <li>If you answer incorrectly time will be deducted</li>
+                    <li>This quiz is timed you will have 60 seconds to complete the questions</li>
+                    <li>If you answer incorrectly 5 seconds will be deducted from your time</li>
                     <li>Upon completion enter your initials and hit submit to log your results</li>
+                    <li>There will be 5 questions</li>
                 </ul>
                 </div>
         </header><br><br><br><br>
@@ -27,22 +28,22 @@
                 <header>
                     <div class="timer">
                         <div class="time-left">Time Remaining</div>
-                        <div id="time-seconds">50</div>
+                        <div id="time-seconds">60</div>
                     </div>
                 </header>
 
                     <div class="question-text" id="question">
-                        Question here 
+                         
                     </div><br>
                     <div class="multiple-choices">
                         
-                        <button class="choice" id="answer1a">choice A</button><br>
+                        <button class="choice" id="answer1a"></button><br>
                         
-                        <button class="choice" id="answer1b">Choice B</button><br>
+                        <button class="choice" id="answer1b"></button><br>
                         
-                        <button class="choice" id="answer1c">Choice C</button><br>
+                        <button class="choice" id="answer1c"></button><br>
                         
-                        <button class="choice" id="answer1d">Choice D</button><br>
+                        <button class="choice" id="answer1d"></button><br>
 
                     </div>
             
@@ -53,7 +54,8 @@
                         <input type="text" id="initials" placeholder="ABC"><br><br>
                         <input id="submit-btn" type="submit" value="Submit">
                     </form>
-                    <div class="results">Score: <span></span></div>
+                    <div class="results-are">Your Score is:</div>
+                    <div id="results"></div>
                 </div> 
                <button class="nextbtn" id="next-btn">Next Question</button>
             </div> 

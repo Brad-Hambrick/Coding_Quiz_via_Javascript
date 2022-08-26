@@ -25,6 +25,8 @@ main {
 
 #submit-btn {
     color: blue;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 
@@ -81,9 +83,13 @@ main {
     border-radius: 5px;
 }
 
-.quiz-box .results {
-    color: rgb(17, 112, 54);
+#results {
+    color: blue;
     margin-bottom: 50px;
+}
+
+.results-are {
+    color: blue;
 }
 
 .quiz-box header {
