@@ -1,7 +1,7 @@
 # Coding_Quiz_via_Javascript
 
 ## Deployed Application
-[Brad's Coding Quiz via Javascript]()
+[Brad's Coding Quiz via Javascript](https://brad-hambrick.github.io/Coding_Quiz_via_Javascript/)
 
 ## Description
 This project was completed in order to showcase javascript skills and provide a simple coding quiz.
@@ -10,10 +10,10 @@ This project was completed in order to showcase javascript skills and provide a 
 There are no images that require licensing and all the coding methods were those taught in the Vanderbilt Web Development Boot Camp.
 
 ## Visuals
-![Website Images](./assets/images/codingQuiz1)
-![Website Images](./assets/images/codingQuiz2)
-![Website Images](./assets/images/codingQuiz3)
-![Website Images](./assets/images/codingQuiz4)
+![Website Images](./assets/images/codingQuiz1.png)
+![Website Images](./assets/images/codingQuiz2.png)
+![Website Images](./assets/images/codingQuiz3.png)
+![Website Images](./assets/images/codingQuiz4.png)
 
 
 ## Usage
